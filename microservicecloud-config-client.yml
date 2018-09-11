@@ -1,4 +1,4 @@
-ï»¿spring: 
+spring: 
   profiles:
     active: 
     - dev
@@ -13,9 +13,9 @@ spring:
     name: microservicecloud-config-client
 
 eureka: 
-  client: #å®¢æˆ·ç«¯æ³¨å†Œè¿›eurekaæœåŠ¡åˆ—è¡¨å†…
+  client: #¿Í»§¶Ë×¢²á½øeureka·şÎñÁĞ±íÄÚ
     service-url: 
-     #å•æœº defaultZone: http://localhost:7001/eureka
+     #µ¥»ú defaultZone: http://localhost:7001/eureka
      defaultZone: http://eureka-dev.com:7001/eureka/
 
 ---
@@ -28,7 +28,7 @@ spring:
     name: microservicecloud-config-client
 
 eureka: 
-  client: #å®¢æˆ·ç«¯æ³¨å†Œè¿›eurekaæœåŠ¡åˆ—è¡¨å†…
+  client: #¿Í»§¶Ë×¢²á½øeureka·şÎñÁĞ±íÄÚ
     service-url: 
-     #å•æœº defaultZone: http://localhost:7001/eureka
+     #µ¥»ú defaultZone: http://localhost:7001/eureka
      defaultZone: http://eureka-test.com:7001/eureka/
